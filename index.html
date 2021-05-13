@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,132 +10,159 @@
     <meta name="keywords" content="UX/UI, Wisler101">
     <meta name="author" content="Wisler">
     <title>Wisler coding 101</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<!-- Header - start -->
-<header>
-<img src="" alt="wisler's logo"> logo
-search
-<nav>
-    About
-    Products
-    Testemonials
-    Contact
-</nav>
-</header>
-<!-- Header - end -->
+    <!-- Header - start -->
+    <header>
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="wisler's logo">
 
-<!-- Hero - start -->
-<section>
-<h1> Heading 1</h1>
-<h3> Heading 3</h3>
-call to action
-</section>
-<!-- Hero - end -->
+        <form action="#">
 
-<!-- Articles Cards - start -->
-<section>
-       <!-- Card 1 - start -->
-       <div>
-           <img src="" alt="">
-           <h3>heading 3</h3>
-           <p>paragraph</p>
-           <img src="" alt="">
-           <p> auhor name</p>
-    </div>
-       <!-- Card 1 - end -->
+            <input type="search" placeholder="search">
+            <input type="submit" value="find">
+        </form>
 
-    <!-- Card 2 - start -->
-    <div>
-        <img src="" alt="">
-        <h3>heading 3</h3>
-        <p>paragraph</p>
-        <img src="" alt="">
-        <p> auhor name</p>
-        </div>
-    <!-- Card 2 - end -->
+        <nav>
+            About
+            Products
+            Testemonials
+            Contact
+        </nav>
+    </header>
+    <!-- Header - end -->
 
-    <!-- Card 3 - start -->
-           <div>
-            >heading 3</h3>
+    <!-- Hero - start -->
+    <section id="hero">
+        <h1> Heading 1</h1>
+        <h3> Heading 3</h3>
+        call to action
+    </section>
+    <!-- Hero - end -->
+
+    <!-- Articles Cards - start -->
+    <section>
+        <!-- Card 1 - start -->
+        <div class="card">
+            <img src="img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg" alt="" class="img-card">
+            <h3>heading 3</h3>
             <p>paragraph</p>
-            <img src="" alt="">
-            <p> auhor name</p>
-           </div>
-            <!-- Card 3 - end -->
-            </section>
-<!-- Articles Cards - end -->
+            <img src="img/avatar_01.png" alt="avatar">
+            <p>auhor name</p>
+        </div>
+        <!-- Card 1 - end -->
 
-<!-- Video - start -->
-<section>
-<video src="" type="video/,p4">
-</video>
-</section>
-<!-- Video - start -->
+        <!-- Card 2 - start -->
+        <div class="card">
+            <img src="img/carl-raw-m3hn2Kn5Bns-unsplash.jpg" alt="avatar" class="img-card">
+            <h3>heading 3</h3>
+            <p>paragraph</p>
+            <img src="img/avatar_02.png" alt="">
+            <p>auhor name</p>
+        </div>
+        <!-- Card 2 - end -->
 
-<!-- feature - start -->
-<section>
-    <!-- feature 1 - start -->
-    <div></div>
-    <img src="" alt="">
-    <h2>title</h2>
-    <p1>description</p1>
-</div>
-    <!-- feature 1 - end -->
+        <!-- Card 3 - start -->
+        <div class="card">
+            <img src="img/clem-onojeghuo-kfoSKoWc9Gg-unsplash.jpg" alt="avatar" class="img-card">
+            <h3>heading 3</h3>
+            <p>paragraph</p>
+            <img src="img/avatar_03.png" alt="avatar">
+            <p>auhor name</p>
+        </div>
+        <!-- Card 3 - end -->
+    </section>
+    <!-- Articles Cards - end -->
 
-     <!-- feature 2 - start -->
-     <div>
-     im<img src="" alt="">
-     <h2>title</h2>
-     <p1>description</p1>
-    </div>
+    <!-- Video - start -->
+    <section>
+        <video src="" type="video/,p4">
+        </video>
+    </section>
+    <!-- Video - start -->
 
-     <!-- feature 2 - end -->
+    <!-- feature - start -->
+    <section>
+        <!-- feature 1 - start -->
+        <div>
+            <img src="img/jeshoots-com-fzOITuS1DIQ-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p1>description</p1>
+        </div>
+        <!-- feature 1 - end -->
 
-      <!-- feature 3 - start -->
-      <div>
-    i<img src="" alt="">
-    <h2>title</h2>
-    <p1>description</p1>
-</div>
-    <!-- feature 3 - end -->
-</section>
-<!-- feature - end -->
+        <!-- feature 2 - start -->
+        <div>
+            <img src="img/aaron-burden-EwQvHL2ETx8-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p1>description</p1>
+        </div>
 
-<!-- Contact - start -->
-<section></section>
-<div>
-<h3>title Contact Us</h3>
-<p>Adress</p>
-</div>
-<div>
-name
-email
-message
-button
-</div>
-</section>
-<!-- Contact - end -->
-<footer></footer>
+        <!-- feature 2 - end -->
+
+        <!-- feature 3 - start -->
+        <div>
+            <img src="img/andrey-metelev-DEuansgqjns-unsplash.jpg" alt="" class="img-feat">
+            <h2>title</h2>
+            <p1>description</p1>
+        </div>
+        <!-- feature 3 - end -->
+    </section>
+    <!-- feature - end -->
+
+    <!-- Contact - start -->
+    <section>
+        <div>
+            <h3>title Contact Us</h3>
+            <p>Adress</p>
+        </div>
+        <div>
+            <form>
+                <label for="name">name</label><br>
+
+                <input id="name" type="text" placeholder="john doe">
+
+                <br><br>
+
+
+                <label for="email">email</label><br>
+                <input id="email" type="email" placeholder="johndoe@email.com">
+
+                <br><br>
+
+                <label for="message">message</label><br>
+                <textarea id="message" rows="6" cols="50" placeholder="write your message"></textarea>
+
+                <br><br>
+
+                <input type="submit" value="send message">
+                button
+            </form>
+        </div>
+    </section>
+    <!-- Contact - end -->
+    <footer></footer>
     <!-- Menu - start -->
     <div>
-    About Us
-    Product
-    Testemonials
-</div>
+        About Us
+        Product
+        Testemonials
+    </div>
     <!-- Menu - end -->
 
     <!-- social Media - start -->
     <div>
-    <h4>Social Media</h4>
-    Facebook
-    instagram
-    twitter
+        <h4>Social Media</h4>
+        Facebook
+        instagram
+        twitter
 
-</div>
+    </div>
     <!-- social Media - end -->
-</footer>
-<!-- fooder - start -->
+    </footer>
+    <!-- fooder - start -->
 
 </body>
+
 </html>
