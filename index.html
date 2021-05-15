@@ -11,11 +11,19 @@
     <meta name="author" content="Wisler">
     <title>Wisler coding 101</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->\
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
 </head>
 
 <body>
     <!-- Header - start -->
-    <header>
+    <header class="container"> 
         <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="wisler's logo">
 
         <form action="#">
@@ -25,10 +33,10 @@
         </form>
 
         <nav>
-            About
-            Products
-            Testemonials
-            Contact
+           <a href=""> About </a>
+           <a href=""> Products </a>
+           <a href=""> Testemonials </a>
+           <a href="#contact"> Contact </a>
         </nav>
     </header>
     <!-- Header - end -->
@@ -37,48 +45,54 @@
     <section id="hero">
         <h1> Heading 1</h1>
         <h3> Heading 3</h3>
-        call to action
+       <a href="#" class="cta-button"><i class="ri-shopping-cart-2-fill"></i> call to action </a>
     </section>
     <!-- Hero - end -->
 
     <!-- Articles Cards - start -->
-    <section>
+    <section id="articles" class="container">
         <!-- Card 1 - start -->
         <div class="card">
             <img src="img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg" alt="" class="img-card">
-            <h3>heading 3</h3>
+            <h5>heading 3</h5>
             <p>paragraph</p>
-            <img src="img/avatar_01.png" alt="avatar">
+            <Div class="container">
+            <img src="img/avatar_01.png" alt="avatar" class="author-photo"> 
             <p>auhor name</p>
+            </Div>
         </div>
         <!-- Card 1 - end -->
 
         <!-- Card 2 - start -->
         <div class="card">
             <img src="img/carl-raw-m3hn2Kn5Bns-unsplash.jpg" alt="avatar" class="img-card">
-            <h3>heading 3</h3>
+            <h5>heading 3</h5>
             <p>paragraph</p>
-            <img src="img/avatar_02.png" alt="">
+            <Div class="container">
+            <img src="img/avatar_02.png" alt="" class="author-photo">
             <p>auhor name</p>
+            </Div>
         </div>
         <!-- Card 2 - end -->
 
         <!-- Card 3 - start -->
         <div class="card">
             <img src="img/clem-onojeghuo-kfoSKoWc9Gg-unsplash.jpg" alt="avatar" class="img-card">
-            <h3>heading 3</h3>
+            <h5>heading 3</h5>
             <p>paragraph</p>
-            <img src="img/avatar_03.png" alt="avatar">
+            <Div class="container">
+            <img src="img/avatar_03.png" alt="avatar" class="author-photo">
             <p>auhor name</p>
+            </Div>
         </div>
         <!-- Card 3 - end -->
     </section>
     <!-- Articles Cards - end -->
 
     <!-- Video - start -->
-    <section>
-        <video src="" type="video/,p4">
-        </video>
+    <section id="video">
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/XodAVdadsic" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <!-- Video - start -->
 
@@ -112,7 +126,7 @@
     <!-- feature - end -->
 
     <!-- Contact - start -->
-    <section>
+    <section id="contact">
         <div>
             <h3>title Contact Us</h3>
             <p>Adress</p>
@@ -145,18 +159,19 @@
     <footer></footer>
     <!-- Menu - start -->
     <div>
-        About Us
-        Product
-        Testemonials
+       <a href=""> About Us </a>
+       <a href=""> Product </a>
+       <a href=""> Testemonials </a>
     </div>
     <!-- Menu - end -->
 
     <!-- social Media - start -->
     <div>
+        <div class="icons">
         <h4>Social Media</h4>
-        Facebook
-        instagram
-        twitter
+        <a href="https://www.facebook.com/wisler"><i class="ri-facebook-box-line"></i> Facebook</a>
+        <a href="https://www.instagram.com/wisler"><i class="ri-instagram-line"></i> instagram</a>
+        <a href="https://www.twitter.com/wisler"><i class="ri-twitter-line"></i> twitter</a>
 
     </div>
     <!-- social Media - end -->
