@@ -1,6 +1,10 @@
 
-h1, h2, h3, h4, h5, h6, p, {font-family: 'Quicksand', sans-serif;
-
+h1, h2, h3, h4, h5, h6, p, {
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 0px;
+}
+body {
+    margin: 0;
 }
 
 h1 {font-size: 4.029rem;
@@ -35,6 +39,11 @@ header {
     padding: 66px;
 }
 
+footer {
+    justify-content: space-evenly;
+    padding: 40px;
+}
+
 img {
     /* width: 100%; */
 }
@@ -59,10 +68,15 @@ width: 100%;
     background-image: url("../img/kirill-sharkovski-jZ9TPXjoZQk-unsplash.jpg");
     background-size: cover;
     height: 30vh;
-    text-align: center;class="img-card"
+    text-align: center; class:"img-card"
+}
+#hero div {
+    padding: 20px;
 }
 
-.icons {font-size: 24px;
+.icons {
+    font-size: 24px;
+    text-align: center;
 }
 
 .container {
@@ -104,4 +118,14 @@ a.cta-button:link,  a.cta-button:visited {
 
 a.cta-button:active {
     background-color: wheat;
+}
+
+
+#articles {
+    justify-content: space-between;
+}
+
+#contact {
+    justify-content: space-around;
+    background-color:rgb(170, 208, 231);
 }
