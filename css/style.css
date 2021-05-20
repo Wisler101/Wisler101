@@ -50,17 +50,34 @@ img {
 
 .card {
     width: 250px;
-    
+}
+
+.img-holder {
+    position: relative;
+    height: 160px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-card {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .img-feat{
     width: 80px;
     height: 80px;
     border-radius: 50;
+    margin: 20px;
 }
 
-.img-card {
-width: 100%;
+video {
+    width: 100%;
+}
+#video {
+    padding: 0;
 }
 
 
@@ -128,4 +145,18 @@ a.cta-button:active {
 #contact {
     justify-content: space-around;
     background-color:rgb(170, 208, 231);
+}
+
+.feature-item {
+    flex-grow: 1;
+}
+
+a.btn-rocio {
+    font-family: 'Quicksand', sans-serif;
+    color: #131045;
+    background-color: white;
+    border: 2px solid #131045;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 0 #131045;
+    border-radius: 100px;
 }
