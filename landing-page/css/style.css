@@ -1,0 +1,64 @@
+h1, h2, h3, h4, h5, h6, p, {
+    font-family: 'Quicksand', sans-serif;
+    margin: 10px 0px;
+}
+
+body {
+    margin: 0;
+}
+h1 {
+    align-self: top left;
+}
+
+.container {
+    display: flex;
+    
+}
+
+section {
+    padding: 80px 40px;
+    background-color: grey;
+    border: 1px blue solid;
+}
+
+div {
+    border: 1px black solid;
+}
+
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+align-items: center;
+background: white;
+justify-content: space-between;
+padding: 64px;
+}
+
+a:link, a:visited {
+    padding: 40px;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #0047FF;
+}
+a:active {
+    color: #0047FF;
+}
+
+#feature {
+    display: flex;
+    justify-content:space-around;
+}
+
+.img-featured {
+width: 548px;
+height: 756px;
+}
+.feat-title {
+    text-align: right;
+}

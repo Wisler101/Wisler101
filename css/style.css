@@ -94,6 +94,7 @@ input:focus {
 
 
 input[type=text] {
+    box-sizing: border-box;
     width: 78%;
     background-image: url("../icons/user-line.png");
     background-repeat: no-repeat;
@@ -104,6 +105,7 @@ input[type=text] {
 }
 
 input[type=email] {
+    box-sizing: border-box;
     width: 78%;
     background-image: url("../icons/mail-line.png");
     background-repeat: no-repeat;
@@ -113,6 +115,7 @@ input[type=email] {
 }
 
 textarea {
+    box-sizing: border-box;
     width: 80%;
     height: 150px;
     padding: 16px 24px;
